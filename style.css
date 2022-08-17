@@ -1,0 +1,175 @@
+body {
+  background-image: url(./components/images/bg-luz.jpg);
+  background-position: top, center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #141414;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+hr {
+  flex-basis: 100%;
+  padding-top: 10px;
+  border: 1px solid;
+  border-image: linear-gradient(
+      90deg,
+      rgba(60, 74, 83, 0),
+      #4c4c4c,
+      rgba(60, 74, 83, 0)
+    )
+    1;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+  transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+  /*border: 2px solid rgb(255, 0, 0);*/
+  background-color: #ff0000;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+  background-color: rgb(255, 0, 0);
+  color: #ffffff;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 60px;
+  font-family: Montserrat, sans-serif;
+  margin: 0px;
+}
+
+span {
+  color: rgb(255, 0, 0);
+}
+
+.txt-botao {
+  margin-top: 40px;
+}
+
+.botao {
+  background-color: #ff0000;
+  padding: 20px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.botao:hover {
+  background-color: #ffffff;
+  color: #ff0000;
+}
+
+.paragraph {
+  line-height: 20px;
+  max-width: 500px;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.expert {
+  width: 580px;
+  /*margin-top: -50px;*/
+  z-index: 1000px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form [type="submit"] {
+  height: 50px;
+  width: 50%;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-weight: 700;
+}
+form [type="submit"]:hover {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+.footer {
+  flex-basis: 100%;
+  padding: 10px;
+  border: 1px solid;
+  border-image: linear-gradient(
+      90deg,
+      rgba(60, 74, 83, 0),
+      #4c4c4c,
+      rgba(60, 74, 83, 0)
+    )
+    1;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+
+  margin-top: 100px;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+}

@@ -1,0 +1,299 @@
+@media screen and (max-width: 1024px) {
+  span {
+    line-height: 50px;
+  }
+
+  h2 {
+    font-size: 47px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  span {
+    line-height: 10px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 15px;
+  }
+
+  .paragraph {
+    padding: 0px 100px;
+    text-align: center;
+    max-width: 100%;
+  }
+  form {
+    margin: 0 auto;
+    width: 100%;
+  }
+  form [type="submit"] {
+    width: 70%;
+  }
+
+  input {
+    align-self: center;
+    width: 70%;
+  }
+
+  .expert {
+    display: 360px;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  ul {
+    text-align: center;
+  }
+  .txt-botao {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 431px) {
+  header {
+    flex-direction: column;
+  }
+
+  span {
+    line-height: 10px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 33px;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .paragraph {
+    padding: 0px 30px;
+    text-align: center;
+    max-width: 100%;
+  }
+  form {
+    margin: 0 auto;
+    width: 100%;
+  }
+  form [type="submit"] {
+    width: 70%;
+  }
+
+  input {
+    align-self: center;
+    width: 70%;
+  }
+
+  .expert {
+    display: 360px;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  ul {
+    text-align: center;
+    font-size: 14px;
+    padding-inline-start: 0px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  header {
+    flex-direction: column;
+  }
+
+  span {
+    line-height: 10px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .paragraph {
+    padding: 0px 30px;
+    text-align: center;
+    max-width: 100%;
+  }
+  form {
+    margin: 0 auto;
+    width: 100%;
+  }
+  form [type="submit"] {
+    width: 70%;
+  }
+
+  input {
+    align-self: center;
+    width: 70%;
+  }
+
+  .expert {
+    display: 360px;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  ul {
+    text-align: center;
+    font-size: 14px;
+    padding-inline-start: 0px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header {
+    flex-direction: column;
+  }
+
+  span {
+    line-height: 10px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .paragraph {
+    padding: 0px 30px;
+    text-align: center;
+    max-width: 100%;
+  }
+  form {
+    margin: 0 auto;
+    width: 100%;
+  }
+  form [type="submit"] {
+    width: 70%;
+  }
+
+  input {
+    align-self: center;
+    width: 70%;
+  }
+
+  .expert {
+    display: 360px;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  ul {
+    text-align: center;
+    font-size: 14px;
+    padding-inline-start: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    flex-direction: column;
+  }
+
+  span {
+    line-height: 10px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+  }
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+
+  .paragraph {
+    padding: 0px;
+    text-align: center;
+    max-width: 100%;
+  }
+  .botao {
+    font-size: 14px;
+  }
+
+  form {
+    margin: 0 auto;
+    width: 100%;
+  }
+  form [type="submit"] {
+    width: 70%;
+  }
+
+  input {
+    align-self: center;
+    width: 70%;
+  }
+
+  .expert {
+    display: 360px;
+    width: 100%;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  ul {
+    text-align: center;
+    font-size: 14px;
+    padding-inline-start: 0px;
+  }
+}
